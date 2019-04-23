@@ -29,6 +29,7 @@ public class ArmorBase extends ItemArmor implements IHasModel {
 		
 		ModItems.ITEMS.add(this);
 	}
+	
 	@Override
     public void onUpdate(ItemStack stack, World worldIn, Entity entityIn, int itemSlot, boolean isSelected) {	
 		if (itemSlot == 0) {
@@ -41,25 +42,6 @@ public class ArmorBase extends ItemArmor implements IHasModel {
 			((EntityPlayer)entityIn).capabilities.setPlayerWalkSpeed(0.1F);
 		}
     }
-	/*
-	@Override
-	public void onArmorTick(World world, EntityPlayer player, ItemStack armor) {
-		for (Item i : ModItems.ITEMS) {
-			// Hacky way of comparing an Item with an ItemStack. I'm comparing the strings of their name.
-			// There is probably a way to actually check them, but I'm not sure exactly how, so for now we're stuck with this.
-			if(player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getUnlocalizedName().equals(i.getUnlocalizedName())) {
-
-				// You can choose to either change the speed of the player, or just add a potion effect.
-				// I prefer to change the speed of the player because then if you drink a speed potion it will still have an effect.
-				// player.addPotionEffect(new PotionEffect(Potion.REGISTRY.getObjectById(1), 0, 0));
-				player.capabilities.setPlayerWalkSpeed(0.15F);
-				break;
-			}
-			else {
-				player.capabilities.setPlayerWalkSpeed(0.1F);
-			} 
-		}
-	} */
 
 	@Override
 	public void registerModels() {
