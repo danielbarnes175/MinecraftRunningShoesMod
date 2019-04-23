@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "GRG",
+        "G G"
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "runningshoesmod:running_shoes"
+        },
+        "G":
+        {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+   
+    "result":
+    {
+        "item": "runningshoesmod:gold_running_shoes",
+        "count": 1
+    }
+}

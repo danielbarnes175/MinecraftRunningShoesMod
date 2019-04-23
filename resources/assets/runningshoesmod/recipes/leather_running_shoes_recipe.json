@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "LRL",
+        "L L"
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "runningshoesmod:running_shoes"
+        },
+        "L":
+        {
+            "item": "minecraft:leather"
+        }
+    },
+   
+    "result":
+    {
+        "item": "runningshoesmod:leather_running_shoes",
+        "count": 1
+    }
+}

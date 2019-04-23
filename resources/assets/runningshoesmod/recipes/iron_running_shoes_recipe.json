@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "IRI",
+        "I I"
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "runningshoesmod:running_shoes"
+        },
+        "I":
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+   
+    "result":
+    {
+        "item": "runningshoesmod:iron_running_shoes",
+        "count": 1
+    }
+}

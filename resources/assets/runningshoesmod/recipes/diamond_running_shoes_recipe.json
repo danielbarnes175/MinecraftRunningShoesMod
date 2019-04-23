@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "DRD",
+        "D D"
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "runningshoesmod:running_shoes"
+        },
+        "D":
+        {
+            "item": "minecraft:diamond"
+        }
+    },
+   
+    "result":
+    {
+        "item": "runningshoesmod:diamond_running_shoes",
+        "count": 1
+    }
+}

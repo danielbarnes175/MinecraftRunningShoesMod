@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "RRR",
+        "RRR",
+        "RRR"
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "modid:object"
+        }
+    },
+   
+    "result":
+    {
+        "item": "modid:object",
+        "count": 1
+    }
+}
