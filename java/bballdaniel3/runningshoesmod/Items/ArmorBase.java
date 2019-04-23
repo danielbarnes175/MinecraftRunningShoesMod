@@ -27,7 +27,7 @@ public class ArmorBase extends ItemArmor implements IHasModel {
 
 	@Override
 	public void onArmorTick(World world, EntityPlayer player, ItemStack armor) {
-		player.addPotionEffect(new PotionEffect(Potion.REGISTRY.getObjectById(1), 0, 1));
+		player.addPotionEffect(new PotionEffect(Potion.REGISTRY.getObjectById(1), 0, 0));
 
 	}
 	@Override
