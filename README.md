@@ -14,7 +14,7 @@ This is the first ever Minecraft mod that I've created. It is made for Minecraft
 	- Iron Running Shoes
 	- Diamond Running Shoes
 - 5 Sprinting Shoe Types:
-	- Same as running shoes, but gives a great speed boost.
+	- Same as running shoes, but gives a greater speed boost at the cost of being more expensive to create.
 - Each pair of running shoes gives the same base speed (default speed * 1.5). Sprinting shoes are more expensive variants that boost run speed by 300% (default speed * 3).
 - Different tiers are so you get armor values equal to that of the vanilla boots of the same tier.
 	- Don't have to make the trade-off between speed vs armor.
@@ -22,7 +22,11 @@ This is the first ever Minecraft mod that I've created. It is made for Minecraft
 
 ## How to craft
 ![Running Shoes Craft](https://i.imgur.com/MESM3dP.png) ![Sprinting Shoes Craft](https://i.imgur.com/YfO5C9H.png)
+
 ![Leather Shoes Craft](https://i.imgur.com/Zh9TCcA.png) ![Leather Sprint Craft](https://i.imgur.com/fRth1A7.png)
+
 ![Gold Shoes Craft](https://i.imgur.com/0544xYg.png) ![Gold Sprint Craft](https://i.imgur.com/mPaje9s.png)
+
 ![Iron Shoes Craft](https://i.imgur.com/9ggyfyt.png) ![Iron Sprint Craft](https://i.imgur.com/LEjQB6Y.png)
+
 ![Diamond Shoes Craft](https://i.imgur.com/NkEsRJt.png) ![Diamond Sprint Craft](https://i.imgur.com/H1OMrsj.png)
