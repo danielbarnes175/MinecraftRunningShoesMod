@@ -2,6 +2,7 @@
 A mod for Minecraft that adds running shoes.
 
 ![Running Shoes](https://i.imgur.com/umfD3CX.png) ![Leather Running Shoes](https://i.imgur.com/ofxGlA7.png) ![Gold Running Shoes](https://i.imgur.com/HL3uR30.png) ![Iron Running Shoes](https://i.imgur.com/CQoF1Gc.png) ![Diamond Running Shoes](https://i.imgur.com/01xe8vw.png)
+![Sprinting Shoes](https://i.imgur.com/6P7rFTw.png) ![Leather Sprinting Shoes](https://i.imgur.com/zCviXxS.png) ![Gold Sprinting Shoes](https://i.imgur.com/GhASB1O.png) ![Iron Sprinting Shoes](https://i.imgur.com/V2jctmN.png) ![Diamond Sprinting Shoes](https://i.imgur.com/1dxxtuy.png)
 
 This is the first ever Minecraft mod that I've created. It is made for Minecraft v1.12.2
 
@@ -12,7 +13,9 @@ This is the first ever Minecraft mod that I've created. It is made for Minecraft
 	- Gold Running Shoes
 	- Iron Running Shoes
 	- Diamond Running Shoes
-- Each pair of running shoes gives the same base speed (default speed * 1.5).
+- 5 Sprinting Shoe Types:
+	- Same as running shoes, but gives a great speed boost.
+- Each pair of running shoes gives the same base speed (default speed * 1.5). Sprinting shoes are more expensive variants that boost run speed by 300% (default speed * 3).
 - Different tiers are so you get armor values equal to that of the vanilla boots of the same tier.
 	- Don't have to make the trade-off between speed vs armor.
 - Stacks with other methods of increasing speed (such as potions).
