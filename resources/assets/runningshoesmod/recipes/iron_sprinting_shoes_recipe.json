@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "FDF",
+        "FRF",
+        "FDF"
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "runningshoesmod:iron_running_shoes"
+        },
+        "D":
+        {
+            "item": "minecraft:diamond"
+        },
+        "F":
+        {
+            "item": "minecraft:feather"
+        }
+    },
+   
+    "result":
+    {
+        "item": "runningshoesmod:iron_sprinting_shoes",
+        "count": 1
+    }
+}

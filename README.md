@@ -21,8 +21,8 @@ This is the first ever Minecraft mod that I've created. It is made for Minecraft
 - Stacks with other methods of increasing speed (such as potions).
 
 ## How to craft
-![Running Shoes Craft](https://i.imgur.com/QZuD5kk.png)
-![Leather Shoes Craft](https://i.imgur.com/6Ht5ikr.png)
-![Gold Shoes Craft](https://i.imgur.com/5VtSeBm.png)
-![Iron Shoes Craft](https://i.imgur.com/rHmIhr0.png)
-![Diamond Shoes Craft](https://i.imgur.com/FwPoqi7.png)
+![Running Shoes Craft](https://i.imgur.com/QZuD5kk.png) ![Sprinting Shoes Craft](https://i.imgur.com/YfO5C9H.png)
+![Leather Shoes Craft](https://i.imgur.com/6Ht5ikr.png) ![Leather Sprint Craft](https://i.imgur.com/fRth1A7.png)
+![Gold Shoes Craft](https://i.imgur.com/5VtSeBm.png) ![Gold Sprint Craft](https://i.imgur.com/mPaje9s.png)
+![Iron Shoes Craft](https://i.imgur.com/rHmIhr0.png) ![Iron Sprint Craft](https://i.imgur.com/LEjQB6Y.png)
+![Diamond Shoes Craft](https://i.imgur.com/FwPoqi7.png) ![Diamond Sprint Craft](https://i.imgur.com/H1OMrsj.png)
