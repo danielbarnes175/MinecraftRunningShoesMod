@@ -1,8 +1,8 @@
 # MinecraftRunningShoesMod
 A mod for Minecraft that adds running shoes.
 
-![Running Shoes](https://i.imgur.com/umfD3CX.png) ![Leather Running Shoes](https://i.imgur.com/ofxGlA7.png) ![Gold Running Shoes](https://i.imgur.com/HL3uR30.png) ![Iron Running Shoes](https://i.imgur.com/CQoF1Gc.png) ![Diamond Running Shoes](https://i.imgur.com/01xe8vw.png)
-![Sprinting Shoes](https://i.imgur.com/6P7rFTw.png) ![Leather Sprinting Shoes](https://i.imgur.com/zCviXxS.png) ![Gold Sprinting Shoes](https://i.imgur.com/GhASB1O.png) ![Iron Sprinting Shoes](https://i.imgur.com/V2jctmN.png) ![Diamond Sprinting Shoes](https://i.imgur.com/1dxxtuy.png)
+![Running Shoes](https://i.imgur.com/5NxQjuK.png) ![Leather Running Shoes](https://i.imgur.com/nAGoLLN.png) ![Gold Running Shoes](https://i.imgur.com/KpUu8E6.png) ![Iron Running Shoes](https://i.imgur.com/T6Msh3W.png) ![Diamond Running Shoes](https://i.imgur.com/ZuLeCbk.png)
+![Sprinting Shoes](https://i.imgur.com/sMStIe3.png) ![Leather Sprinting Shoes](https://i.imgur.com/x92cGPc.png) ![Gold Sprinting Shoes](https://i.imgur.com/L7R6LXz.png) ![Iron Sprinting Shoes](https://i.imgur.com/Cri6nql.png) ![Diamond Sprinting Shoes](https://i.imgur.com/K9AOogK.png)
 
 This is the first ever Minecraft mod that I've created. It is made for Minecraft v1.12.2
 
@@ -21,8 +21,8 @@ This is the first ever Minecraft mod that I've created. It is made for Minecraft
 - Stacks with other methods of increasing speed (such as potions).
 
 ## How to craft
-![Running Shoes Craft](https://i.imgur.com/QZuD5kk.png) ![Sprinting Shoes Craft](https://i.imgur.com/YfO5C9H.png)
-![Leather Shoes Craft](https://i.imgur.com/6Ht5ikr.png) ![Leather Sprint Craft](https://i.imgur.com/fRth1A7.png)
-![Gold Shoes Craft](https://i.imgur.com/5VtSeBm.png) ![Gold Sprint Craft](https://i.imgur.com/mPaje9s.png)
-![Iron Shoes Craft](https://i.imgur.com/rHmIhr0.png) ![Iron Sprint Craft](https://i.imgur.com/LEjQB6Y.png)
-![Diamond Shoes Craft](https://i.imgur.com/FwPoqi7.png) ![Diamond Sprint Craft](https://i.imgur.com/H1OMrsj.png)
+![Running Shoes Craft](https://i.imgur.com/MESM3dP.png) ![Sprinting Shoes Craft](https://i.imgur.com/YfO5C9H.png)
+![Leather Shoes Craft](https://i.imgur.com/Zh9TCcA.png) ![Leather Sprint Craft](https://i.imgur.com/fRth1A7.png)
+![Gold Shoes Craft](https://i.imgur.com/0544xYg.png) ![Gold Sprint Craft](https://i.imgur.com/mPaje9s.png)
+![Iron Shoes Craft](https://i.imgur.com/9ggyfyt.png) ![Iron Sprint Craft](https://i.imgur.com/LEjQB6Y.png)
+![Diamond Shoes Craft](https://i.imgur.com/NkEsRJt.png) ![Diamond Sprint Craft](https://i.imgur.com/H1OMrsj.png)
