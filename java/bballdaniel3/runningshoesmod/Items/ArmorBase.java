@@ -19,9 +19,11 @@ import net.minecraft.world.World;
 
 public class ArmorBase extends ItemArmor implements IHasModel {
 
-	public ArmorBase(String name, ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn) {
+	protected float speed;
+	
+	public ArmorBase(String name, ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn, float speed) {
 		super(materialIn, renderIndexIn, equipmentSlotIn);
-		
+		this.speed = speed;
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(CreativeTabs.TRANSPORTATION);
@@ -36,7 +38,7 @@ public class ArmorBase extends ItemArmor implements IHasModel {
 			// You can either choose to set the walking speed of the player higher, or just add a speed 1 potion effect.
 			// I prefer the former option of setting the speed.
 			// player.addPotionEffect(new PotionEffect(Potion.REGISTRY.getObjectById(1), 0, 0));
-			((EntityPlayer)entityIn).capabilities.setPlayerWalkSpeed(0.15F);
+			((EntityPlayer)entityIn).capabilities.setPlayerWalkSpeed(speed);
 
 		} else {
 			((EntityPlayer)entityIn).capabilities.setPlayerWalkSpeed(0.1F);

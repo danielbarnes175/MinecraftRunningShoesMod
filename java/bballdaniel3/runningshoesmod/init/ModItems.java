@@ -21,15 +21,15 @@ public class ModItems {
 	public static final ArmorMaterial ARMOR_GOLD_RUNNING_SHOES = EnumHelper.addArmorMaterial("gold_running_shoes", Reference.MOD_ID + ":gold_running_shoes", 7, new int[]{1, 3, 5, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F);		
 	public static final ArmorMaterial ARMOR_DIAMOND_RUNNING_SHOES = EnumHelper.addArmorMaterial("diamond_running_shoes", Reference.MOD_ID + ":diamond_running_shoes", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F);
 	
-	public static final Item RUNNING_SHOES = new ArmorBase("running_shoes", ARMOR_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET);
-	public static final Item LEATHER_RUNNING_SHOES = new ArmorBase("leather_running_shoes", ARMOR_LEATHER_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET);
-	public static final Item IRON_RUNNING_SHOES = new ArmorBase("iron_running_shoes", ARMOR_IRON_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET);
-	public static final Item GOLD_RUNNING_SHOES = new ArmorBase("gold_running_shoes", ARMOR_GOLD_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET);
-	public static final Item DIAMOND_RUNNING_SHOES = new ArmorBase("diamond_running_shoes", ARMOR_DIAMOND_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET);
+	public static final Item RUNNING_SHOES = new ArmorBase("running_shoes", ARMOR_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET, 0.15F);
+	public static final Item LEATHER_RUNNING_SHOES = new ArmorBase("leather_running_shoes", ARMOR_LEATHER_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET, 0.15F);
+	public static final Item IRON_RUNNING_SHOES = new ArmorBase("iron_running_shoes", ARMOR_IRON_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET, 0.15F);
+	public static final Item GOLD_RUNNING_SHOES = new ArmorBase("gold_running_shoes", ARMOR_GOLD_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET, 0.15F);
+	public static final Item DIAMOND_RUNNING_SHOES = new ArmorBase("diamond_running_shoes", ARMOR_DIAMOND_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET, 0.15F);
 	
-	public static final Item SPRINTING_SHOES = new ArmorBase("sprinting_shoes", ARMOR_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET);
-	public static final Item LEATHER_SPRINTING_SHOES = new ArmorBase("leather_sprinting_shoes", ARMOR_LEATHER_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET);
-	public static final Item IRON_SPRINTING_SHOES = new ArmorBase("iron_sprinting_shoes", ARMOR_IRON_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET);
-	public static final Item GOLD_SPRINTING_SHOES = new ArmorBase("gold_sprinting_shoes", ARMOR_GOLD_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET);
-	public static final Item DIAMOND_SPRINTING_SHOES = new ArmorBase("diamond_sprinting_shoes", ARMOR_DIAMOND_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET);
+	public static final Item SPRINTING_SHOES = new ArmorBase("sprinting_shoes", ARMOR_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET, 0.3F);
+	public static final Item LEATHER_SPRINTING_SHOES = new ArmorBase("leather_sprinting_shoes", ARMOR_LEATHER_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET, 0.3F);
+	public static final Item IRON_SPRINTING_SHOES = new ArmorBase("iron_sprinting_shoes", ARMOR_IRON_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET, 0.3F);
+	public static final Item GOLD_SPRINTING_SHOES = new ArmorBase("gold_sprinting_shoes", ARMOR_GOLD_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET, 0.3F);
+	public static final Item DIAMOND_SPRINTING_SHOES = new ArmorBase("diamond_sprinting_shoes", ARMOR_DIAMOND_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET, 0.3F);
 }
