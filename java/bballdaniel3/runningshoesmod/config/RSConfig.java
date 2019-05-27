@@ -1,4 +1,4 @@
-package bballdaniel3.runningshoesmod.util.handlers;
+package bballdaniel3.runningshoesmod.config;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,7 +9,6 @@ import net.minecraftforge.common.config.ConfigManager;
 import net.minecraftforge.fml.client.event.ConfigChangedEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-
 
 @Config(modid = Reference.MOD_ID)
 public class RSConfig {

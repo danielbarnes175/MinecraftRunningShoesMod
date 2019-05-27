@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import bballdaniel3.runningshoesmod.Main;
+import bballdaniel3.runningshoesmod.config.RSConfig;
 import bballdaniel3.runningshoesmod.init.ModItems;
 import bballdaniel3.runningshoesmod.util.IHasModel;
-import bballdaniel3.runningshoesmod.util.handlers.RSConfig;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
@@ -48,7 +48,6 @@ public class ArmorBase extends ItemArmor implements IHasModel {
 			} else {
 				((EntityPlayer)entityIn).capabilities.setPlayerWalkSpeed(RSConfig.Values.get("Sprinting Shoes Speed"));
 			}
-
 		} else {
 			((EntityPlayer)entityIn).capabilities.setPlayerWalkSpeed(0.1F);
 		}
@@ -58,9 +57,4 @@ public class ArmorBase extends ItemArmor implements IHasModel {
 	public void registerModels() {
 		Main.proxy.registerItemRenderer(this, 0, "inventory");
 	}
-	
-	public int getType() {
-		return type;
-	}
-
 }

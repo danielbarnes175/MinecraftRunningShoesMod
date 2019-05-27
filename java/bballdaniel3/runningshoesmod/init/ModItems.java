@@ -4,9 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import bballdaniel3.runningshoesmod.Items.ArmorBase;
-import bballdaniel3.runningshoesmod.Items.ItemBase;
+import bballdaniel3.runningshoesmod.config.RSConfig;
 import bballdaniel3.runningshoesmod.util.Reference;
-import bballdaniel3.runningshoesmod.util.handlers.RSConfig;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
