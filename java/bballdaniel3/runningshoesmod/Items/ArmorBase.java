@@ -6,6 +6,7 @@ import java.util.List;
 import bballdaniel3.runningshoesmod.Main;
 import bballdaniel3.runningshoesmod.init.ModItems;
 import bballdaniel3.runningshoesmod.util.IHasModel;
+import bballdaniel3.runningshoesmod.util.handlers.ConfigHandler;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
@@ -19,11 +20,11 @@ import net.minecraft.world.World;
 
 public class ArmorBase extends ItemArmor implements IHasModel {
 
-	protected float speed;
+	protected int type;
 	
-	public ArmorBase(String name, ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn, float speed) {
+	public ArmorBase(String name, ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn, int type) {
 		super(materialIn, renderIndexIn, equipmentSlotIn);
-		this.speed = speed;
+		this.type = type;
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(CreativeTabs.TRANSPORTATION);
@@ -38,7 +39,11 @@ public class ArmorBase extends ItemArmor implements IHasModel {
 			// You can either choose to set the walking speed of the player higher, or just add a speed 1 potion effect.
 			// I prefer the former option of setting the speed.
 			// player.addPotionEffect(new PotionEffect(Potion.REGISTRY.getObjectById(1), 0, 0));
-			((EntityPlayer)entityIn).capabilities.setPlayerWalkSpeed(speed);
+			if (type == 0) {
+				((EntityPlayer)entityIn).capabilities.setPlayerWalkSpeed(ConfigHandler.General.get("Running Shoes Speed"));
+			} else {
+				((EntityPlayer)entityIn).capabilities.setPlayerWalkSpeed(ConfigHandler.General.get("Sprinting Shoes Speed"));
+			}
 
 		} else {
 			((EntityPlayer)entityIn).capabilities.setPlayerWalkSpeed(0.1F);
@@ -48,6 +53,10 @@ public class ArmorBase extends ItemArmor implements IHasModel {
 	@Override
 	public void registerModels() {
 		Main.proxy.registerItemRenderer(this, 0, "inventory");
+	}
+	
+	public int getType() {
+		return type;
 	}
 
 }
