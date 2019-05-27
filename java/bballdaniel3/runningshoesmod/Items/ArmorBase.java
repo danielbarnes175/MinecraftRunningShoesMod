@@ -6,7 +6,7 @@ import java.util.List;
 import bballdaniel3.runningshoesmod.Main;
 import bballdaniel3.runningshoesmod.init.ModItems;
 import bballdaniel3.runningshoesmod.util.IHasModel;
-import bballdaniel3.runningshoesmod.util.handlers.ConfigHandler;
+import bballdaniel3.runningshoesmod.util.handlers.RSConfig;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
@@ -30,7 +30,11 @@ public class ArmorBase extends ItemArmor implements IHasModel {
 		setCreativeTab(CreativeTabs.TRANSPORTATION);
 		setMaxStackSize(1);
 		
-		ModItems.ITEMS.add(this);
+		if (type == 0 && RSConfig.runningShoesEnabled) {
+			ModItems.ITEMS.add(this);
+		} else if (type == 1 && RSConfig.sprintingShoesEnabled) {
+			ModItems.ITEMS.add(this);
+		}
 	}
 	
 	@Override
@@ -40,9 +44,9 @@ public class ArmorBase extends ItemArmor implements IHasModel {
 			// I prefer the former option of setting the speed.
 			// player.addPotionEffect(new PotionEffect(Potion.REGISTRY.getObjectById(1), 0, 0));
 			if (type == 0) {
-				((EntityPlayer)entityIn).capabilities.setPlayerWalkSpeed(ConfigHandler.General.get("Running Shoes Speed"));
+				((EntityPlayer)entityIn).capabilities.setPlayerWalkSpeed(RSConfig.Values.get("Running Shoes Speed"));
 			} else {
-				((EntityPlayer)entityIn).capabilities.setPlayerWalkSpeed(ConfigHandler.General.get("Sprinting Shoes Speed"));
+				((EntityPlayer)entityIn).capabilities.setPlayerWalkSpeed(RSConfig.Values.get("Sprinting Shoes Speed"));
 			}
 
 		} else {

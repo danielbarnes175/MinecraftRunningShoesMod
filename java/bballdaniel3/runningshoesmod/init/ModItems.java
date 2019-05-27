@@ -6,6 +6,7 @@ import java.util.List;
 import bballdaniel3.runningshoesmod.Items.ArmorBase;
 import bballdaniel3.runningshoesmod.Items.ItemBase;
 import bballdaniel3.runningshoesmod.util.Reference;
+import bballdaniel3.runningshoesmod.util.handlers.RSConfig;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
@@ -26,7 +27,7 @@ public class ModItems {
 	public static final Item IRON_RUNNING_SHOES = new ArmorBase("iron_running_shoes", ARMOR_IRON_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET, 0);
 	public static final Item GOLD_RUNNING_SHOES = new ArmorBase("gold_running_shoes", ARMOR_GOLD_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET, 0);
 	public static final Item DIAMOND_RUNNING_SHOES = new ArmorBase("diamond_running_shoes", ARMOR_DIAMOND_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET, 0);
-	
+		
 	public static final Item SPRINTING_SHOES = new ArmorBase("sprinting_shoes", ARMOR_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET, 1);
 	public static final Item LEATHER_SPRINTING_SHOES = new ArmorBase("leather_sprinting_shoes", ARMOR_LEATHER_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET, 1);
 	public static final Item IRON_SPRINTING_SHOES = new ArmorBase("iron_sprinting_shoes", ARMOR_IRON_RUNNING_SHOES, 1, EntityEquipmentSlot.FEET, 1);
